@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
     switch(c) {
       case 'x': speed = atoi(optarg); break;
       default:
-        printf("Usage: speedcontrol [-x speed] [device]");
+        printf("Usage: speedcontrol [-x speed] [device]\n");
         return -1;
     }
   }
