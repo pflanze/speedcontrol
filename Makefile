@@ -1,3 +1,3 @@
 
 all:
-	gcc -o speedcontrol -Wall speedcontrol.c
+	gcc -o dvdspeedcontrol -Wall dvdspeedcontrol.c
