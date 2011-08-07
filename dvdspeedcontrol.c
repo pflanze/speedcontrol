@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
       case 'x': speed = atoi(optarg); break;
       default:
         printf("Usage: %s [-x speed] [device]\n", argv[0]);
-        return -1;
+        return 1;
     }
   }
 
@@ -76,7 +76,7 @@ int main(int argc, char *argv[])
   fd = open(device, O_RDWR | O_NONBLOCK);
   if (fd < 0) {
     printf("%s: Can't open device %s: %s\n", argv[0], device, strerror(errno));
-    return -1;
+    return 1;
   }
 
   memset(&cgc, 0, sizeof(cgc));
@@ -130,7 +130,7 @@ int main(int argc, char *argv[])
     if (ioctl(fd, CDROM_SELECT_SPEED, speed) != 0) {
       dump_sense(cgc.cmd, cgc.sense);
       printf("ERROR.\n");
-      return -1;
+      return 1;
     }
 
   printf("OK...\n");
