@@ -1,5 +1,14 @@
 dvdspeedcontrol: set the speed of DVD-drives
 
+Set the rotation speed of DVD (and possibly CDrom) drives to a fixed
+value, for example when watching a movie and the drive likes to spin
+faster and hence make more noise than necessary, or when copying data
+from a disc that's not properly balanced anymore and causes excessive
+vibrations with the default speed.
+
+Note: speed settings persist only for the currently inserted disc (at
+least with my hardware).
+
 This tool for Linux (tested on Debian) was originally written by
 Thomas Fritzsche, http://noto.de, and I found it through some forum
 posts, some of which with (modified) copies. I've collected this
@@ -16,9 +25,6 @@ by forking it on Github[1]).
 
 Installation: just run "make install" (edit the Makefile to change the
 target).
-
-Note: speed settings persist only for the currently inserted disc (at
-least with my hardware).
 
 Christian Jaeger
 
