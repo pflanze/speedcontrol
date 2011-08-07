@@ -1,0 +1,17 @@
+dvdspeedcontrol: set the speed of DVD-drives
+
+This tool for Linux (tested on Debian) was originally written by
+Thomas Fritzsche, http://noto.de, and I found it through some forum
+posts, some of which with (modified) copies. I've collected this
+information here (see Git history), and have renamed the tool from
+speedcontrol to dvdspeedcontrol to make it enough to remember "dvd"
+then hit the tab key to find it through autocompletion; also, the
+original program description already explicitely said it is for
+DVD-drives.
+
+The tool does not seem to be on noto.de anymore, so I'm pushing this
+to Github as possible primary location or for whomever would like to
+add changes, or if I don't respond, take over maintenance (preferably
+by forking it on Github).
+
+Christian Jaeger
