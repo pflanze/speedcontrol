@@ -14,6 +14,9 @@ to Github as possible primary location or for whomever would like to
 add changes, or if I don't respond, take over maintenance (preferably
 by forking it on Github[1]).
 
+Installation: just run "make install" (edit the Makefile to change the
+target).
+
 Note: speed settings persist only for the currently inserted disc (at
 least with my hardware).
 
