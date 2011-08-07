@@ -12,9 +12,11 @@ DVD-drives.
 The tool does not seem to be on noto.de anymore, so I'm pushing this
 to Github as possible primary location or for whomever would like to
 add changes, or if I don't respond, take over maintenance (preferably
-by forking it on Github).
+by forking it on Github[1]).
 
 Note: speed settings persist only for the currently inserted disc (at
 least with my hardware).
 
 Christian Jaeger
+
+[1] https://github.com/pflanze/dvdspeedcontrol
