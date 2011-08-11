@@ -25,7 +25,7 @@ it with my changes.
 
 Christian Jaeger
 
-[1] https://github.com/pflanze/dvdspeedcontrol
+[1] https://github.com/pflanze/speedcontrol
 [2] https://github.com/fritzsche/speedcontrol
 
 
