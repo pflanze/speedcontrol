@@ -1,4 +1,5 @@
-== dvdspeedcontrol: set the speed of DVD-drives
+dvdspeedcontrol: set the speed of DVD-drives
+============================================
 
 Set the rotation speed of DVD (and possibly CDrom) drives to a fixed
 value, for example when watching a movie and the drive likes to spin
@@ -27,7 +28,9 @@ Christian Jaeger
 [1] https://github.com/pflanze/dvdspeedcontrol
 [2] https://github.com/fritzsche/speedcontrol
 
-=== INSTALLATION
+
+INSTALLATION
+------------
 
 Just run "make install" (edit the Makefile to change the
 target).
