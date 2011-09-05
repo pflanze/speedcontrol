@@ -22,6 +22,8 @@ DVD-drives.
 In the meantime, Thomas Fritzsche has moved the code to Github too[2],
 and I have forked his repo and merged it with my changes.
 
+NOTE: hdparm now has an -E option that should be doing the same thing.
+
 Christian Jaeger
 
 [1] https://github.com/pflanze/speedcontrol
