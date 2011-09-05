@@ -4,7 +4,7 @@ dvdspeedcontrol: set the speed of DVD-drives
 Set the rotation speed of DVD (and possibly CDrom) drives to a fixed
 value, for example when watching a movie and the drive likes to spin
 faster and hence make more noise than necessary, or when copying data
-from a disc that's not properly balanced anymore and causes excessive
+from a disc that's not properly balanced and causes excessive
 vibrations with the default speed.
 
 Note: speed settings persist only for the currently inserted disc (at
