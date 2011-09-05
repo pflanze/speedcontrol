@@ -20,8 +20,7 @@ original program description already explicitely said it is for
 DVD-drives.
 
 In the meantime, Thomas Fritzsche has moved the code to Github too[2],
-and I have forked his repo (and renamed to dvdspeedcontrol) and merged
-it with my changes.
+and I have forked his repo and merged it with my changes.
 
 Christian Jaeger
 
