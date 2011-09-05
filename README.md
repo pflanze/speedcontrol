@@ -14,9 +14,9 @@ This tool for Linux (tested on Debian) has originally been written by
 Thomas Fritzsche, http://noto.de, and I found it through some forum
 posts, some of which with (modified) copies. I've collected this
 information here (see Git history), and have renamed the tool from
-speedcontrol to dvdspeedcontrol to make it enough to remember "dvd"
-then hit the tab key to find it through autocompletion; also, the
-original program description already explicitely said it is for
+speedcontrol to dvdspeedcontrol to make it sufficient to remember
+"dvd" then hit the tab key to find it through autocompletion; also,
+the original program description already explicitely said it is for
 DVD-drives.
 
 In the meantime, Thomas Fritzsche has moved the code to Github too[2],
